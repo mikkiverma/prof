@@ -1,0 +1,190 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+    background-color: #EFEFEF;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+}
+
+
+#nav1{
+    width: 22%;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav2{
+    width: 78%;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+}
+
+#nav1 img {
+    height: 150px;
+}
+
+@media(min-width:500px)
+{
+    #nav2 img {
+        height: 40px;
+        transition: 0.5s;
+    }
+    #nav2 img:hover {
+        transform: scale(1.5);
+    }
+    .midimg img:hover {
+   transform: scale(1.05);
+}
+}
+
+.middle{
+
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    height: 500px;
+}
+
+.midimg 
+{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 500px;
+}
+
+.midright{
+    /* border: 1px solid black; */
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 5px;
+    font-size: 30px;
+}
+
+.midright li {
+    padding: 25px;
+    color: #474646;
+}
+
+.midimg img{
+    height: 400px;
+    width: 820px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    border-radius: 22px;
+    transition: 0.5s;
+}
+
+
+.personalinfo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.earlylife{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+pre{
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 1px;
+}
+
+@media (max-width:500px)
+{
+    #nav1 img {
+        height: 80px;
+    }
+    
+    #nav2 img {
+        height: 20px;
+    }
+
+    .middle{
+    
+        display: flex;
+        flex-direction: column;
+       justify-content: space-around;
+        /* border: 1px solid black; */
+        height: 400px;
+        
+    }
+
+.midimg {
+/*    margin-top: 30px; */
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    width: 100%;
+    height: 150px;
+    margin-bottom: -50px;
+    margin: 10px;
+    
+}
+
+.midimg img{
+    
+    height: 160px;
+    width: 320px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    border-radius: 6px;
+}
+
+.midright{
+    height: 160px;
+    /* border: 1px solid black; */
+    
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.midright li {
+    margin-left: 50px;
+    padding: 5px;
+    color: #474646;
+}
+.personalinfo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 12px;
+    /* margin-left: 10px; */
+}
+.earlylife{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 12px;
+    /* margin-left: 10px; */
+}
+}
